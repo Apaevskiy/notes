@@ -1,0 +1,32 @@
+.root {
+    border-color: #9f9f9f;
+}
+.modal {
+    -fx-border-width: 1;
+    -fx-border-color: border-color;
+}
+
+.label {
+    -fx-font-size: 14;
+}
+
+/*  --- buttons ---  */
+
+.ikonli-font-icon {
+    -fx-icon-size: 22;
+}
+
+
+.button {
+    -fx-padding: 4px 8px;
+    -fx-cursor: hand;
+    -fx-font-size: 14;
+}
+
+.icon-button {
+    -fx-background-color: transparent;
+}
+
+.icon-button:hover {
+    -fx-border-radius: 8;
+}

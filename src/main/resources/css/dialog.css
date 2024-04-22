@@ -1,0 +1,22 @@
+.dialog-pane .label {
+    -fx-text-fill: red;
+}
+
+.dialog-pane:header .header-panel {
+    -fx-background-color: #d2d2d2;
+}
+
+.dialog-pane:header .header-panel .label {
+}
+.dialog-pane .content{
+    -fx-border-width: 2;
+    -fx-border-color: red;
+    -fx-padding: 20 30 20 30;
+}
+.dialog-pane > *.button-bar > *.container{
+    -fx-background-color: #d2d2d2;
+}
+.dialog-pane{
+    -fx-border-width: 2;
+    -fx-border-color: rgb(65, 65, 65);
+}
